@@ -1,0 +1,382 @@
+body{
+    margin:0%;
+    background-color: #e8e9e7;
+}
+
+.testclass1{
+    text-decoration: none;
+    color: #9c9090;    
+    padding: 10%;
+    text-align: center;
+}
+
+
+.container{
+    display:flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
+.header{
+    width: 100%;    
+    padding-top: 2px;
+   
+
+}
+
+.headerbar{
+
+    margin-left: 10%;
+    margin-right: 10%;    
+    padding-top: 8px;
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: .875em;
+    font-weight: 400;    
+    color: #3f850a;
+    
+    
+}
+
+.hleft{
+    
+    width: 50%;
+    float: left;    
+    line-height: 25px;
+    
+
+}
+
+.hright{
+    
+    width: 50%;
+    float: left;  
+
+}
+
+.hrighttools{
+    text-decoration: none;
+    color: #3f850a;
+    float: left;
+    
+
+}
+
+
+
+.hsearch{
+    
+    
+    background: white;  
+    border: 0px ;
+    cursor: pointer;    
+    width: 170px;
+    height: 30px;
+    float: left;
+    
+}
+
+.hsearchicon
+{
+    width: 30px;
+    height: 30px;    
+    border: none;
+    float: left;
+    
+}
+
+.searchdiv
+{
+    background-color: rgb(21, 237, 9);
+    width: 200px;
+    height: 30px; 
+    float: left;
+}
+
+.hrighttab{
+    padding-left: 10px;
+}
+
+.bodypart{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.bodywrapper{
+    margin-left: 10%;
+    margin-right: 10%; 
+    height: 100%;   
+    width: 80%;
+    
+    
+}
+
+.mainlogo{
+      padding-left: 25%;
+   
+}
+
+
+.menu{
+    
+    border-top-color: #d89709;
+    border-bottom-color: #d89709;
+    padding-top: 2%;
+    padding-bottom:4%;
+    padding-left: 2%;
+    border-style: solid;
+    border-left-color: #ffffff;
+    border-right-color:white; 
+    text-align: left;
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+.menu ul{
+    
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.menu ul li{
+    float: left;
+    width: 105px;
+    height: 10%;
+    background-color: white;
+  
+}
+
+.menu ul li a{
+
+    text-decoration: none;
+    color: #3f850a;
+    display: block;
+}
+
+
+.menu a:hover{
+    color: blue;
+}
+
+
+.sliderbox{
+    margin-top: 2%;
+    
+}
+
+.behindsliderbox{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.penholder{
+
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.penholdersub{
+    width: 20%;
+    float: left;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.penholdersub img:hover{
+    opacity: 0.3;
+}
+
+.pendesc{
+    text-decoration: none;
+    color: black;
+    padding-left: 5%;
+    font-family: sans-serif;
+    
+    
+}
+
+.pendesc p{
+    padding-top:2px;
+    text-indent: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+
+.FPRheading{
+    margin-top:10%;
+    text-align: left;
+    color: green;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.footer{
+    width: 100%;    
+    padding-top: 2px;
+    background-color: #eee;
+   
+
+}
+
+.footerbar{
+
+    margin-left: 10%;
+    margin-right: 10%;    
+    padding-top: 8px;
+    font-family: HelveticaNeue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: .875em;
+    font-weight: 400;    
+    color: #3f850a;
+    float: left;
+    padding-left:20px;
+    
+    
+}
+
+.footerbar a:hover{
+    color: green;
+}
+
+.fpart1{
+    width: 25%;
+    line-height:100%;   
+    float: left;
+}
+
+
+.fpart1 a:hover{
+    color: blue;
+}
+
+.ftitle{
+    text-decoration: none;
+    color: green;
+    
+   
+
+}
+
+.fparttext{
+    line-height: 25px;
+
+}
+
+
+
+.ftext{
+    text-decoration: none;
+    color: green;
+   
+
+}
+
+
+.fpart2{
+    float: left;
+    width: 25%;
+    
+    
+}
+
+.fpart2 a:hover{
+    color: blue;
+}
+.fpart3{
+    float: left;
+    width: 25%;
+    
+    
+}
+
+
+.fpart4{
+    float: left;
+    width: 25%;
+  
+    
+}
+
+.fbox{
+    border-color: #e1ca99;
+    width:90%;
+    height:30px;
+    
+}
+
+.fbutton{
+   margin-top: 2%;
+    background-color: rgb(7, 7, 178);
+    border: none;
+    color: white;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:small  ;
+    cursor: pointer;
+    height: 35px;
+   
+    
+}
+
+.fbutton :hover{
+    background-color:rgb(26, 26, 203); ;
+}
+
+.ftextcopy{
+    width: 100%;
+
+}
+
+.fcopyrights{
+    text-align: center;
+    
+    color: green;
+
+}
+
+.fcopyrights a{
+    text-decoration: none;
+    color: green;
+
+}
+
+
+.fcopyrights a:hover{
+    color: blue;
+}
+
+
+.fpayment{
+    width:100%;
+    height:24%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fpaymenticons{
+
+    height:60px;
+    width: 30%;
+
+}
+
+
+
+
+
+
+
